@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AiSD: Dokumentacja pliku AiSD-projekt/RDC.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">AiSD
+   </div>
+   <div id="projectbrief">Szyfr Cezara i Vigenera</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.4 -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_r_d_c_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentacja pliku RDC.h</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Deszyfrowanie metoda Cezara, deszyfrowanie wszystkich znakow.  
+<a href="#details">Więcej...</a></p>
+
+<p><a href="_r_d_c_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a9f38015fa58df014600af5a6ad6f95f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_d_c_8h.html#a9f38015fa58df014600af5a6ad6f95f5">RDC_data</a> (char *text[], int *shift)</td></tr>
+<tr class="memdesc:a9f38015fa58df014600af5a6ad6f95f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pobranie danych od uzytkownika.  <a href="_r_d_c_8h.html#a9f38015fa58df014600af5a6ad6f95f5">Więcej...</a><br /></td></tr>
+<tr class="separator:a9f38015fa58df014600af5a6ad6f95f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67a733447f43c38a93a557244f355d07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_d_c_8h.html#a67a733447f43c38a93a557244f355d07">RDC_decrypt</a> (char text[], int shift)</td></tr>
+<tr class="memdesc:a67a733447f43c38a93a557244f355d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja ta realizuje deszyfrowanie szyfru Cezara, ktory moze dzialac na wszystkich znakach ASCII z przedzialu od ! do ~  <a href="_r_d_c_8h.html#a67a733447f43c38a93a557244f355d07">Więcej...</a><br /></td></tr>
+<tr class="separator:a67a733447f43c38a93a557244f355d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p >Deszyfrowanie metoda Cezara, deszyfrowanie wszystkich znakow. </p>
+</div><h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="a9f38015fa58df014600af5a6ad6f95f5" name="a9f38015fa58df014600af5a6ad6f95f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f38015fa58df014600af5a6ad6f95f5">&#9670;&nbsp;</a></span>RDC_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RDC_data </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>shift</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pobranie danych od uzytkownika. </p>
+
+</div>
+</div>
+<a id="a67a733447f43c38a93a557244f355d07" name="a67a733447f43c38a93a557244f355d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67a733447f43c38a93a557244f355d07">&#9670;&nbsp;</a></span>RDC_decrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RDC_decrypt </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>text</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>shift</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja ta realizuje deszyfrowanie szyfru Cezara, ktory moze dzialac na wszystkich znakach ASCII z przedzialu od ! do ~ </p>
+<p >Dzialanie tej funkcji jest niemal identyczne do klasycznej metody Funkcja sprawdza na danej pozycji w tekscie wystepuje znak, nastepnie odejmuje przesuniecie. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Tekst pobrany do deszyfrowania</td></tr>
+    <tr><td class="paramname">shift</td><td>Przesuniecie</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_f4554cca8ce6289e908cd24a6baa16cd.html">AiSD-projekt</a></li><li class="navelem"><a class="el" href="_r_d_c_8h.html">RDC.h</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>
